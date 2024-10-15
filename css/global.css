@@ -5,9 +5,9 @@
 }
 
 body {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5rem;
     background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
 }
 
 body, html {
@@ -17,14 +17,14 @@ body, html {
 .container {
     flex-direction: column;
     display: flex;
-    border: 5px solid black;
     height: 100%; 
+    border: 5px solid black;
 }
 
 header, nav, section, article, aside footer {
-    padding: 10px;
-    border: 5px solid black; 
     text-align: center;
+    padding: 10px;
+    border: 5px solid black;
 }
 
 header, nav, footer {
@@ -32,9 +32,9 @@ header, nav, footer {
 }
 
 header {
+    text-align: center;
     background-color: #4c69ca;
     height: 12%; 
-    text-align: center;
 }
 
 nav {
@@ -43,8 +43,8 @@ nav {
 }
 
 footer {
-    background-color:#4d70e2;
     text-align: center;
+    background-color:#4d70e2;
     height: 12%; 
 }
 
@@ -54,9 +54,9 @@ footer {
 }
 
 .main-content {
+    display: flex; 
     flex-direction: column;
     width: 75%;
-    display: flex; 
 }
 
 section, article {
@@ -76,7 +76,7 @@ aside {
     width: 25%; 
     background-color: rgb(255, 255, 255);
     height: 50rem; 
-    border: 5px solid black;
     color: black;
     text-align: center;
+    border: 5px solid black;
 }
